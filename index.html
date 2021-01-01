@@ -9,13 +9,15 @@
 <body>
     
 <div class="wrapper">
-    <div class="tabs-wrapper">
-        <input type="text" name="tabs" id="tab-1">
-        <input type="text" name="tabs" id="tab-2">
-        <label for="tab-1">Tab 1</label>
-        <label for="tab-2">Tab 2</label>
-        <div class="content content-1">Content 1</div>
-        <div class="content content-2">Content 2</div>
+    <div class="tabs">
+        <div class="tabs-triggers">
+            <a href="#tab-1" class="tabs-triggers__item">Tab 1</a>
+            <a href="#tab-2" class="tabs-triggers__item">Tab 2</a>
+        </div>
+        <div class="tabs-content">
+            <div id="tab-1" class="tabs-content__item">Content 1</div>
+            <div id="tab-2" class="tabs-content__item">Content 2</div>
+        </div>  
     </div>
 </div>
 
